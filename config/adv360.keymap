@@ -119,11 +119,11 @@
 
         NavigationMac {
             bindings = <
-&trans  &trans        &trans    &trans            &trans     &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans        &trans    &trans            &trans     &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LEFT_GUI  &kp RALT  &kp LEFT_CONTROL  &kp LSHFT  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans        &trans    &trans            &trans     &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans        &trans    &trans            &trans             &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans        &trans  &trans            &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans        &trans  &trans            &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LEFT_GUI  &trans  &kp LEFT_CONTROL  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans        &trans  &trans            &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans        &trans  &trans            &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
