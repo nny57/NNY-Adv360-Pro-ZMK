@@ -99,11 +99,11 @@
 
         NavigationWin {
             bindings = <
-&trans  &trans     &trans    &trans    &trans     &trans  &trans                                      &trans  &trans    &trans    &trans        &trans     &trans  &trans
-&trans  &trans     &trans    &trans    &trans     &trans  &trans                                      &trans  &trans    &trans    &trans        &trans     &trans  &trans
-&trans  &kp RCTRL  &kp RALT  &kp RGUI  &kp LSHFT  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans  &trans
-&trans  &trans     &trans    &trans    &trans     &trans                  &trans      &trans                  &trans    &trans    &trans        &trans     &trans  &trans
-&trans  &trans     &trans    &trans    &trans             &trans  &trans  &trans      &trans  &trans  &trans            &trans    &trans        &trans     &trans  &trans
+&trans  &trans     &trans    &trans    &trans     &trans  &trans                                      &trans  &trans    &trans         &trans        &trans     &trans  &trans
+&trans  &trans     &trans    &trans    &trans     &trans  &trans                                      &trans  &trans    &kp PAGE_DOWN  &kp PAGE_UP   &trans     &trans  &trans
+&trans  &kp RCTRL  &kp RALT  &kp RGUI  &kp LSHFT  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT  &kp DOWN       &kp UP_ARROW  &kp RIGHT  &trans  &trans
+&trans  &trans     &trans    &trans    &trans     &trans                  &trans      &trans                  &trans    &trans         &trans        &trans     &trans  &trans
+&trans  &trans     &trans    &trans    &trans             &trans  &trans  &trans      &trans  &trans  &trans            &trans         &trans        &trans     &trans  &trans
             >;
         };
 
