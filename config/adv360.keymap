@@ -96,17 +96,17 @@
 
         default_layer {
             bindings = <
-&kp ENTER             &kp N1        &kp N2           &kp N3          &kp N4                   &kp N5  &mo 5                                                                     &mo 5      &kp N6  &kp N7                    &kp N8       &kp N9            &kp N0                &kp MINUS
+&kp ENTER             &kp N1        &kp N2           &kp N3          &kp N4                   &kp N5  &mo 6                                                                     &mo 6      &kp N6  &kp N7                    &kp N8       &kp N9            &kp N0                &kp MINUS
 &kp TAB               &kp Q         &kp W            &kp E           &kp R                    &kp T   &kp LG(LS(S))                                                             &tog 1     &kp Y   &kp U                     &kp I        &kp O             &kp P                 &kp BSLH
 &mt CAPSLOCK ESCAPE   &hml LCTRL A  &hml LEFT_ALT S  &hml LCMD D     &hrmlshift LEFT_SHIFT F  &kp G   &kp SPACE      &kp LCTRL     &kp LALT       &kp LGUI         &kp RCTRL    &mkp MB1   &kp H   &hmrrshift RIGHT_SHIFT J  &hmr RCMD K  &hmr RIGHT_ALT L  &hmr RCTRL SEMICOLON  &kp APOSTROPHE
 &mt LEFT_SHIFT EQUAL  &kp Z         &kp X            &kp C           &kp V                    &kp B                                &kp HOME       &kp PG_UP                                &kp N   &kp M                     &kp COMMA    &kp DOT           &kp FSLH              &mt RIGHT_SHIFT MINUS
-&kp LC(A)             &kp GRAVE     &kp LC(Z)        &kp LEFT_ARROW  &kp RIGHT                        &kp BACKSPACE  &lt 2 DELETE  &lt 3 END      &lt 3 PAGE_DOWN  &lt 2 ENTER  &kp SPACE          &kp UP_ARROW              &kp DOWN     &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &mo 9
+&kp LC(A)             &kp GRAVE     &kp LC(Z)        &kp LEFT_ARROW  &kp RIGHT                        &kp BACKSPACE  &lt 2 DELETE  &lt 4 END      &lt 4 PAGE_DOWN  &lt 2 ENTER  &kp SPACE          &kp UP_ARROW              &kp DOWN     &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &mo 10
             >;
         };
 
         MacLayer {
             bindings = <
-&trans                &kp N1               &kp N2           &kp N3               &kp N4             &kp N5  &mo 5                                                                      &mo 5     &kp N6  &kp N7              &kp N8                &kp N9            &kp N0                        &kp MINUS
+&trans                &kp N1               &kp N2           &kp N3               &kp N4             &kp N5  &mo 6                                                                      &mo 6     &kp N6  &kp N7              &kp N8                &kp N9            &kp N0                        &kp MINUS
 &kp TAB               &kp Q                &kp W            &kp E                &kp R              &kp T   &kp LS(LA(LC(LG(NUMBER_2))))                                               &tog 1    &kp Y   &kp U               &kp I                 &kp O             &kp P                         &kp BSLH
 &mt CAPSLOCK ESCAPE   &hml LEFT_COMMAND A  &hml LEFT_ALT S  &hml LEFT_CONTROL D  &hml LEFT_SHIFT F  &kp G   &trans                        &kp LCMD  &kp LALT      &kp LCTRL  &kp RCMD  &mkp MB1  &kp H   &hmr RIGHT_SHIFT J  &hmr RIGHT_CONTROL K  &hmr RIGHT_ALT L  &hmr RIGHT_COMMAND SEMICOLON  &kp APOSTROPHE
 &mt LEFT_SHIFT EQUAL  &kp Z                &kp X            &kp C                &kp V              &kp B                                           &trans        &trans                         &kp N   &kp M               &kp COMMA             &kp DOT           &kp FSLH                      &mt RIGHT_SHIFT MINUS
@@ -114,13 +114,23 @@
             >;
         };
 
-        CombinedNumSumFn {
+        CombinedNumSumFnWin {
             bindings = <
-&trans         &kp F1           &kp F2        &kp F3        &kp F4        &kp F5       &trans                                      &trans  &kp F6            &kp F7             &kp F8        &kp F9                &kp F10                &trans
-&trans         &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT  &trans                                      &trans  &kp CARET         &kp AMPERSAND      &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&kp BACKSPACE  &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5       &trans  &trans  &trans      &trans  &trans  &trans  &kp NUMBER_6      &kp N7             &kp N8        &kp N9                &kp N0                 &trans
-&trans         &trans           &trans        &trans        &trans        &trans                       &trans      &trans                  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans        &trans                &trans                 &trans
-&trans         &trans           &trans        &trans        &trans                     &trans  &trans  &trans      &trans  &trans  &trans                    &trans             &trans        &trans                &trans                 &trans
+&trans         &kp F1               &kp F2                  &kp F3                  &kp F4                    &kp F5       &trans                                      &trans  &kp F6            &kp F7               &kp F8             &kp F9                &kp F10                &trans
+&trans         &kp EXCLAMATION      &kp AT_SIGN             &kp HASH                &kp DOLLAR                &kp PERCENT  &trans                                      &trans  &kp CARET         &kp AMPERSAND        &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&kp BACKSPACE  &hml NUMBER_1 LCTRL  &hml NUMBER_2 LEFT_ALT  &hml NUMBER_3 LEFT_GUI  &hml NUMBER_4 LEFT_SHIFT  &kp N5       &trans  &trans  &trans      &trans  &trans  &trans  &kp NUMBER_6      &hmr N7 RIGHT_SHIFT  &hmr N8 RIGHT_GUI  &hmr N9 RIGHT_ALT     &hmr N0 RCTRL          &trans
+&trans         &trans               &trans                  &trans                  &trans                    &trans                       &trans      &trans                  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &trans             &trans                &trans                 &trans
+&trans         &trans               &trans                  &trans                  &trans                                 &trans  &trans  &trans      &trans  &trans  &trans                    &trans               &trans             &trans                &trans                 &trans
+            >;
+        };
+
+        CombinedNumSumFnMAC {
+            bindings = <
+&trans         &kp F1               &kp F2                  &kp F3                  &kp F4                    &kp F5       &trans                                      &trans  &kp F6            &kp F7               &kp F8             &kp F9                &kp F10                &trans
+&trans         &kp EXCLAMATION      &kp AT_SIGN             &kp HASH                &kp DOLLAR                &kp PERCENT  &trans                                      &trans  &kp CARET         &kp AMPERSAND        &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&kp BACKSPACE  &hml NUMBER_1 LCTRL  &hml NUMBER_2 LEFT_ALT  &hml NUMBER_3 LEFT_GUI  &hml NUMBER_4 LEFT_SHIFT  &kp N5       &trans  &trans  &trans      &trans  &trans  &trans  &kp NUMBER_6      &hmr N7 RIGHT_SHIFT  &hmr N8 RIGHT_GUI  &hmr N9 RIGHT_ALT     &hmr N0 RCTRL          &trans
+&trans         &trans               &trans                  &trans                  &trans                    &trans                       &trans      &trans                  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &trans             &trans                &trans                 &trans
+&trans         &trans               &trans                  &trans                  &trans                                 &trans  &trans  &trans      &trans  &trans  &trans                    &trans               &trans             &trans                &trans                 &trans
             >;
         };
 
@@ -156,17 +166,17 @@
 
         DuplicateDefault {
             bindings = <
-&kp EQUAL        &kp N1        &kp N2           &kp N3       &kp N4             &kp N5  &tog 10                                                  &mo 5      &kp N6  &kp N7              &kp N8       &kp N9            &kp N0                &kp MINUS
+&kp EQUAL        &kp N1        &kp N2           &kp N3       &kp N4             &kp N5  &tog 0                                                   &mo 6      &kp N6  &kp N7              &kp N8       &kp N9            &kp N0                &kp MINUS
 &kp TAB          &kp Q         &kp W            &kp E        &kp R              &kp T   &none                                                    &none      &kp Y   &kp U               &kp I        &kp O             &kp P                 &kp BSLH
 &mt CAPS ESCAPE  &hml LCTRL A  &hml LEFT_ALT S  &hml LCMD D  &hml LEFT_SHIFT F  &kp G   &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp H   &hmr RIGHT_SHIFT J  &hmr RCMD K  &hmr RIGHT_ALT L  &hmr RCTRL SEMICOLON  &kp SQT
-&lt 10 EQUAL     &kp Z         &kp X            &kp C        &kp V              &kp B                        &kp HOME      &kp PG_UP                        &kp N   &kp M               &kp COMMA    &kp DOT           &kp FSLH              &lt 0 MINUS
+&lt 0 EQUAL      &kp Z         &kp X            &kp C        &kp V              &kp B                        &kp HOME      &kp PG_UP                        &kp N   &kp M               &kp COMMA    &kp DOT           &kp FSLH              &lt 0 MINUS
 &mkp MB1         &kp GRAVE     &kp CAPS         &kp LEFT     &kp RIGHT                  &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE          &kp UP              &kp DOWN     &kp LBKT          &kp RBKT              &mo 0
             >;
         };
 
         keypadFunction {
             bindings = <
-&kp F1     &kp F2     &kp F10   &kp F11   &kp F12    &kp F6  &trans                                                   &mo 5      &trans  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &trans
+&kp F1     &kp F2     &kp F10   &kp F11   &kp F12    &kp F6  &trans                                                   &mo 6      &trans  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &trans
 &kp TAB    &kp Q      &kp F7    &kp F8    &kp F9     &kp T   &none                                                    &none      &trans  &kp KP_N7   &kp KP_N8     &kp KP_N9      &kp KP_MINUS     &trans
 &kp ESC    &kp A      &kp F4    &kp F5    &kp F6     &kp G   &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &trans  &kp KP_N4   &kp KP_N5     &kp KP_N6      &kp KP_PLUS      &trans
 &kp LSHFT  &kp Z      &kp F1    &kp F2    &kp F3     &kp B                        &kp HOME      &kp PG_UP                        &trans  &kp KP_N1   &kp KP_N2     &kp KP_N3      &kp KP_ENTER     &trans
@@ -186,11 +196,11 @@
 
         fn {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &tog 10                                      &mo 5   &kp F7    &kp F8          &kp F9        &kp F10    &kp F11  &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans  &none                                        &trans  &trans    &trans          &trans        &trans     &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &none    &trans  &trans      &trans  &trans  &trans  &kp LEFT  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans                   &trans      &trans                  &trans    &trans          &trans        &trans     &trans   &trans
-&trans  &trans  &trans  &trans  &trans          &trans   &trans  &trans      &trans  &trans  &trans            &trans          &trans        &trans     &trans   &trans
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &tog 0                                      &mo 6   &kp F7    &kp F8          &kp F9        &kp F10    &kp F11  &kp F12
+&trans  &trans  &trans  &trans  &trans  &trans  &none                                       &trans  &trans    &trans          &trans        &trans     &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &none   &trans  &trans      &trans  &trans  &trans  &kp LEFT  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans    &trans          &trans        &trans     &trans   &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans            &trans          &trans        &trans     &trans   &trans
             >;
         };
     };
@@ -199,8 +209,13 @@
         compatible = "zmk,conditional-layers";
 
         MacNavigationCondition {
-            if-layers = <1 3>;
-            then-layer = <4>;
+            if-layers = <1 4>;
+            then-layer = <5>;
+        };
+
+        CombinedNumSumFnMACCondition {
+            if-layers = <1 2>;
+            then-layer = <3>;
         };
     };
 };
