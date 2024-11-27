@@ -116,21 +116,21 @@
 
         CombinedNumSumFnWin {
             bindings = <
-&trans         &kp F1               &kp F2                  &kp F3                  &kp F4                    &kp F5       &trans                                      &trans  &kp F6            &kp F7               &kp F8             &kp F9                &kp F10                &trans
-&trans         &kp EXCLAMATION      &kp AT_SIGN             &kp HASH                &kp DOLLAR                &kp PERCENT  &trans                                      &trans  &kp CARET         &kp AMPERSAND        &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&kp BACKSPACE  &hml NUMBER_1 LCTRL  &hml NUMBER_2 LEFT_ALT  &hml NUMBER_3 LEFT_GUI  &hml NUMBER_4 LEFT_SHIFT  &kp N5       &trans  &trans  &trans      &trans  &trans  &trans  &kp NUMBER_6      &hmr N7 RIGHT_SHIFT  &hmr N8 RIGHT_GUI  &hmr N9 RIGHT_ALT     &hmr N0 RCTRL          &trans
-&trans         &trans               &trans                  &trans                  &trans                    &trans                       &trans      &trans                  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &trans             &trans                &trans                 &trans
-&trans         &trans               &trans                  &trans                  &trans                                 &trans  &trans  &trans      &trans  &trans  &trans                    &trans               &trans             &trans                &trans                 &trans
+&trans         &kp F1                      &kp F2                  &kp F3                  &kp F4                    &kp F5       &trans                                      &trans  &kp F6            &kp F7               &kp F8                   &kp F9                   &kp F10                      &trans
+&trans         &kp EXCLAMATION             &kp AT_SIGN             &kp HASH                &kp DOLLAR                &kp PERCENT  &trans                                      &trans  &kp CARET         &kp AMPERSAND        &kp ASTERISK             &kp LEFT_PARENTHESIS     &kp RIGHT_PARENTHESIS        &trans
+&kp BACKSPACE  &hml LEFT_CONTROL NUMBER_1  &hml LEFT_ALT NUMBER_2  &hml LEFT_GUI NUMBER_3  &hml LEFT_SHIFT NUMBER_4  &kp N5       &trans  &trans  &trans      &trans  &trans  &trans  &kp NUMBER_6      &hmr RIGHT_SHIFT N7  &hmr RIGHT_GUI NUMBER_8  &hmr RIGHT_ALT NUMBER_9  &hmr RIGHT_CONTROL NUMBER_0  &trans
+&trans         &trans                      &trans                  &trans                  &trans                    &trans                       &trans      &trans                  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &trans                   &trans                   &trans                       &trans
+&trans         &trans                      &trans                  &trans                  &trans                                 &trans  &trans  &trans      &trans  &trans  &trans                    &trans               &trans                   &trans                   &trans                       &trans
             >;
         };
 
         CombinedNumSumFnMAC {
             bindings = <
-&trans         &kp F1               &kp F2                  &kp F3                  &kp F4                    &kp F5       &trans                                      &trans  &kp F6            &kp F7               &kp F8             &kp F9                &kp F10                &trans
-&trans         &kp EXCLAMATION      &kp AT_SIGN             &kp HASH                &kp DOLLAR                &kp PERCENT  &trans                                      &trans  &kp CARET         &kp AMPERSAND        &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&kp BACKSPACE  &hml NUMBER_1 LCTRL  &hml NUMBER_2 LEFT_ALT  &hml NUMBER_3 LEFT_GUI  &hml NUMBER_4 LEFT_SHIFT  &kp N5       &trans  &trans  &trans      &trans  &trans  &trans  &kp NUMBER_6      &hmr N7 RIGHT_SHIFT  &hmr N8 RIGHT_GUI  &hmr N9 RIGHT_ALT     &hmr N0 RCTRL          &trans
-&trans         &trans               &trans                  &trans                  &trans                    &trans                       &trans      &trans                  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &trans             &trans                &trans                 &trans
-&trans         &trans               &trans                  &trans                  &trans                                 &trans  &trans  &trans      &trans  &trans  &trans                    &trans               &trans             &trans                &trans                 &trans
+&trans         &kp F1                      &kp F2                  &kp F3                      &kp F4                    &kp F5       &trans                                      &trans  &kp F6            &kp F7               &kp F8                       &kp F9                   &kp F10                      &trans
+&trans         &kp EXCLAMATION             &kp AT_SIGN             &kp HASH                    &kp DOLLAR                &kp PERCENT  &trans                                      &trans  &kp CARET         &kp AMPERSAND        &kp ASTERISK                 &kp LEFT_PARENTHESIS     &kp RIGHT_PARENTHESIS        &trans
+&kp BACKSPACE  &hml LEFT_COMMAND NUMBER_1  &hml LEFT_ALT NUMBER_2  &hml LEFT_CONTROL NUMBER_3  &hml LEFT_SHIFT NUMBER_4  &kp N5       &trans  &trans  &trans      &trans  &trans  &trans  &kp NUMBER_6      &hmr RIGHT_SHIFT N7  &hmr RIGHT_CONTROL NUMBER_8  &hmr RIGHT_ALT NUMBER_9  &hmr RIGHT_COMMAND NUMBER_0  &trans
+&trans         &trans                      &trans                  &trans                      &trans                    &trans                       &trans      &trans                  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &trans                       &trans                   &trans                       &trans
+&trans         &trans                      &trans                  &trans                      &trans                                 &trans  &trans  &trans      &trans  &trans  &trans                    &trans               &trans                       &trans                   &trans                       &trans
             >;
         };
 
