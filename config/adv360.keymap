@@ -4,6 +4,7 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
+#include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
 / {
@@ -106,11 +107,11 @@
 
         MacLayer {
             bindings = <
-&trans                &trans               &trans           &trans               &trans  &trans  &trans                                                                     &trans     &trans  &trans  &trans                &trans            &trans                        &trans
-&trans                &trans               &trans           &trans               &trans  &trans  &kp LS(LA(LC(LG(NUMBER_2))))                                               &tog 0     &trans  &trans  &trans                &trans            &trans                        &trans
-&mt CAPSLOCK ESCAPE   &hml LEFT_COMMAND A  &hml LEFT_ALT S  &hml LEFT_CONTROL D  &trans  &trans  &kp LG(C)                     &kp LCMD  &kp LALT      &kp LCTRL  &kp RCMD  &kp LG(V)  &trans  &trans  &hmr RIGHT_CONTROL K  &hmr RIGHT_ALT L  &hmr RIGHT_COMMAND SEMICOLON  &kp APOSTROPHE
-&mt LEFT_SHIFT EQUAL  &kp Z                &kp X            &kp C                &kp V   &kp B                                           &trans        &trans                          &kp N   &kp M   &kp COMMA             &kp DOT           &kp FSLH                      &mt RIGHT_SHIFT MINUS
-&kp LG(A)             &kp LG(Z)            &trans           &trans               &trans          &trans                        &trans    &trans        &trans     &trans    &trans             &trans  &trans                &trans            &trans                        &kp LG(SPACE)
+&trans               &trans               &trans           &trans               &trans  &trans  &trans                                                                     &trans     &trans  &trans  &trans                &trans            &trans                        &trans
+&trans               &trans               &trans           &trans               &trans  &trans  &kp LS(LA(LC(LG(NUMBER_2))))                                               &tog 0     &trans  &trans  &trans                &trans            &trans                        &trans
+&mt CAPSLOCK ESCAPE  &hml LEFT_COMMAND A  &hml LEFT_ALT S  &hml LEFT_CONTROL D  &trans  &trans  &kp LG(C)                     &kp LCMD  &kp LALT      &kp LCTRL  &kp RCMD  &kp LG(V)  &trans  &trans  &hmr RIGHT_CONTROL K  &hmr RIGHT_ALT L  &hmr RIGHT_COMMAND SEMICOLON  &kp APOSTROPHE
+&trans               &trans               &trans           &trans               &trans  &trans                                          &trans        &trans                          &trans  &trans  &trans                &trans            &trans                        &trans
+&kp LG(A)            &kp LG(Z)            &trans           &trans               &trans          &trans                        &trans    &trans        &trans     &trans    &trans             &trans  &trans                &trans            &trans                        &kp LG(SPACE)
             >;
         };
 
