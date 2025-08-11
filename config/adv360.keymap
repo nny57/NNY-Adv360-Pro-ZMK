@@ -101,7 +101,7 @@
 &kp TAB               &kp Q         &kp W            &kp E             &kp R              &kp T   &kp LG(LS(S))                                                             &tog 1     &kp Y   &kp U           &kp I         &kp O             &kp P                 &kp BSLH
 &mt CAPSLOCK ESCAPE   &hml LCTRL A  &hml LEFT_ALT S  &hml LCMD D       &kp F              &kp G   &kp LC(C)      &kp LCTRL     &kp LALT       &kp LGUI         &kp RCTRL    &kp LC(V)  &kp H   &kp J           &hmr RCMD K   &hmr RIGHT_ALT L  &hmr RCTRL SEMICOLON  &kp APOSTROPHE
 &mt LEFT_SHIFT EQUAL  &kp Z         &kp X            &kp C             &kp V              &kp B                                &kp HOME       &kp PG_UP                                &kp N   &kp M           &kp COMMA     &kp DOT           &kp FSLH              &mt RIGHT_SHIFT MINUS
-&kp LC(A)             &kp LC(Z)     &kp LC(GRAVE)    &kp LEFT_BRACKET  &kp RIGHT_BRACKET          &kp BACKSPACE  &lt 2 DELETE  &lt 4 END      &lt 4 PAGE_DOWN  &lt 2 ENTER  &kp SPACE          &kp DOWN_ARROW  &kp UP_ARROW  &kp LEFT_ARROW    &kp RIGHT             &mo 10
+&kp LC(A)             &kp LC(Z)     &kp LC(GRAVE)    &kp LEFT_BRACKET  &kp RIGHT_BRACKET          &kp BACKSPACE  &lt 2 DELETE  &lt 4 END      &lt 4 PAGE_DOWN  &lt 2 ENTER  &kp SPACE          &kp DOWN_ARROW  &kp UP_ARROW  &kp LEFT_ARROW    &kp RIGHT             &kp LC(SPACE)
             >;
         };
 
@@ -111,7 +111,7 @@
 &trans                &trans               &trans           &trans               &trans  &trans  &kp LS(LA(LC(LG(NUMBER_2))))                                               &tog 0     &trans  &trans  &trans                &trans            &trans                        &trans
 &mt CAPSLOCK ESCAPE   &hml LEFT_COMMAND A  &hml LEFT_ALT S  &hml LEFT_CONTROL D  &trans  &trans  &kp LG(C)                     &kp LCMD  &kp LALT      &kp LCTRL  &kp RCMD  &kp LG(V)  &trans  &trans  &hmr RIGHT_CONTROL K  &hmr RIGHT_ALT L  &hmr RIGHT_COMMAND SEMICOLON  &kp APOSTROPHE
 &mt LEFT_SHIFT EQUAL  &kp Z                &kp X            &kp C                &kp V   &kp B                                           &trans        &trans                          &kp N   &kp M   &kp COMMA             &kp DOT           &kp FSLH                      &mt RIGHT_SHIFT MINUS
-&kp LG(A)             &kp LG(Z)            &trans           &trans               &trans          &trans                        &trans    &trans        &trans     &trans    &trans             &trans  &trans                &trans            &trans                        &trans
+&kp LG(A)             &kp LG(Z)            &trans           &trans               &trans          &trans                        &trans    &trans        &trans     &trans    &trans             &trans  &trans                &trans            &trans                        &kp LG(SPACE)
             >;
         };
 
@@ -192,16 +192,6 @@
 &trans  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT  &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT_CONTROL  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
 &trans  &trans           &trans       &trans    &trans      &trans                       &trans      &trans                  &trans            &trans         &trans        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans
 &trans  &trans           &trans       &trans    &trans                   &trans  &trans  &trans      &trans  &trans  &trans                    &trans         &trans        &trans                &trans                 &trans
-            >;
-        };
-
-        fn {
-            bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &tog 0                                             &mo 6   &kp F7    &kp F8          &kp F9        &kp F10    &kp F11  &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans  &none                                              &trans  &trans    &trans          &trans        &trans     &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &none          &trans  &trans      &trans  &trans  &trans  &kp LEFT  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans                         &trans      &trans                  &trans    &trans          &trans        &trans     &trans   &trans
-&trans  &trans  &trans  &trans  &trans          &kp BACKSPACE  &trans  &trans      &trans  &trans  &trans            &trans          &trans        &trans     &trans   &trans
             >;
         };
     };
